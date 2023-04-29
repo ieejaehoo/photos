@@ -51,16 +51,16 @@
                 color: white;
             }
             #image1 {
-                background-image: url(./1.jpg);
+                background-image: url(./5.jpg);
             }
             #image2 {
-                background-image: url(./2.jpg);
+                background-image: url(./6.jpg);
             }
             #image3 {
-                background-image: url(./3.jpg);
+                background-image: url(./7-1.jpg);
             }
             #image4 {
-                background-image: url(./4.jpg);
+                background-image: url(./8.jpg);
             }
             .photo-description {
                 color: white;
@@ -80,6 +80,10 @@
             }
             .hideText {
                 opacity: 0;
+            }
+            .video{
+                width: 100%;
+                height: 100%;
             }
     </style>
     <script>
@@ -155,13 +159,17 @@
                         생일날 3=3
                     </span>
                 </div>
-                <div id="image4" class="photo-frame"
+                <!-- <div id="image4" class="photo-frame"
                 onmouseover="showText(4)"
                 onmouseout="hideText(4)"
                 onclick="alertText(4)">
                     <span id="desc4" class="photo-description">
                         놀러가서 4=4
-                    </span>
+                    </span> -->
+                <div class="photo-frame">
+                    <iframe src="https://www.youtube.com/embed/DtKCNJmARF0" frameborder="0"
+                     class="video"> 
+                    </iframe>
                 </div>
             </div>
             <div class="footer">
